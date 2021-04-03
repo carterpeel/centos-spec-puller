@@ -88,9 +88,8 @@ cd ..
 
 cleanup(){
 
-
-#rm -rf urls.tmp
-printf "\e[1;31mDone! CD to 'repos/' to see all of the downloaded packages\e[0m\n"
+rm -rf urls.tmp
+printf "\e[1;31mDone! CD to 'srpms/' to see all of the built SRPMs.\e[0m\n"
 
 }
  
