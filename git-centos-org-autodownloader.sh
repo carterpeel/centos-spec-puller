@@ -89,6 +89,7 @@ cd ..
 cleanup(){
 
 rm -rf urls.tmp
+rm -rf spec
 printf "\e[1;31mDone! CD to 'srpms/' to see all of the built SRPMs.\e[0m\n"
 
 }
