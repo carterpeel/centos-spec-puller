@@ -84,7 +84,7 @@ do
     cd ..
 done
 
-
+cd ..
 mkdir srpms-built
 find repos/ -name '*.rpm' -print0 | xargs -0 -I files cp files srpms-built/
 
@@ -149,7 +149,7 @@ cleanup(){
 
 #rm -rf urls.tmp
 #rm -rf spec
-printf "\e[1;31mDone! CD to 'srpms/' to see all of the built SRPMs.\e[0m\n"
+printf "\e[1;31mDone! \e[0m\n"
 
 }
  
